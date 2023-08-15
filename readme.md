@@ -6,7 +6,7 @@
 ---
 ## [![](https://img.shields.io/badge/Source%20Code-Download_Link-brightgreen)](https://github.com/paulshaiju/oslab)
 
-[![](https://img.shields.io/badge/Viva%20Voce-Questions-violet)](https://github.com/paulshaiju/oslab/blob/main/Viva-Voce/OSLAB_VIVA-VOCE_QBank_AUG2023_U5_JECC.pdf)
+[![](https://img.shields.io/badge/Viva%20Voce-Questions-violet)](https://github.com/paulshaiju/oslab/blob/main/Viva-Voce/OSLAB_VIVA-VOCE_QBank_AUG2023_U4_JECC.pdf)
 
 [![](https://img.shields.io/badge/Programs%20%26%20Viva%20by-Alwin%20Mathew%2C%20Alan%20Jose%2C%20%20Athul%20Murali%2C%20%20Adithya%20E%2C%20%26%20Abhijith%20Suresh-orange)](mailto:alwinmathew.cse21@jecc.ac.in,alan.cse21@jecc.ac.in,athul.cse21@jecc.ac.in,adithya.cse21@jecc.ac.in,abhijith.cse21@jecc.ac.in)
 
