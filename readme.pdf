@@ -3,8 +3,8 @@
 1 0 obj
 <</Creator (Chromium)
 /Producer (Skia/PDF m80)
-/CreationDate (D:20230815082745+00'00')
-/ModDate (D:20230815082745+00'00')>>
+/CreationDate (D:20230815085955+00'00')
+/ModDate (D:20230815085955+00'00')>>
 endobj
 3 0 obj
 <</ca 1
@@ -392,7 +392,7 @@ endobj
 /Rect [42.999996 583.91998 170.5 601.91998]
 /A <</Type /Action
 /S /URI
-/URI (https://github.com/paulshaiju/dslab)>>>>
+/URI (https://github.com/paulshaiju/oslab)>>>>
 endobj
 37 0 obj
 <</Type /Annot
@@ -402,7 +402,7 @@ endobj
 /Rect [42.999996 553.16998 140.5 570.41998]
 /A <</Type /Action
 /S /URI
-/URI (https://github.com/paulshaiju/dslab)>>>>
+/URI (https://github.com/paulshaiju/oslab/blob/main/Viva-Voce/OSLAB_VIVA-VOCE_QBank_AUG2023_U5_JECC.pdf)>>>>
 endobj
 38 0 obj
 <</Type /Annot
@@ -422,7 +422,7 @@ endobj
 /Rect [42.999996 493.16998 215.5 510.41998]
 /A <</Type /Action
 /S /URI
-/URI (https://github.com/paulshaiju/dslab/blob/master/INSTALL_gcc_geany_on_windows.pdf)>>>>
+/URI (https://github.com/paulshaiju/oslab/blob/master/INSTALL_gcc_geany_on_windows.pdf)>>>>
 endobj
 40 0 obj
 <</Type /Annot
@@ -432,7 +432,7 @@ endobj
 /Rect [42.999996 449.66998 84.999992 466.91998]
 /A <</Type /Action
 /S /URI
-/URI (https://github.com/paulshaiju/dslab/tree/master/Cycle-1)>>>>
+/URI (https://github.com/paulshaiju/oslab/tree/master/Cycle-1)>>>>
 endobj
 41 0 obj
 <</Filter /FlateDecode
@@ -540,7 +540,7 @@ endobj
 /Rect [42.999996 725.66992 84.999992 742.91992]
 /A <</Type /Action
 /S /URI
-/URI (https://github.com/paulshaiju/dslab/tree/master/Cycle-2)>>>>
+/URI (https://github.com/paulshaiju/oslab/tree/master/Cycle-2)>>>>
 endobj
 49 0 obj
 <</Filter /FlateDecode
@@ -700,7 +700,7 @@ endobj
 /Rect [42.999996 742.16986 84.999992 759.41986]
 /A <</Type /Action
 /S /URI
-/URI (https://github.com/paulshaiju/dslab/tree/master/Cycle-3)>>>>
+/URI (https://github.com/paulshaiju/oslab/tree/master/Cycle-3)>>>>
 endobj
 62 0 obj
 <</Type /Annot
@@ -710,7 +710,7 @@ endobj
 /Rect [42.999996 556.16986 84.999992 573.41986]
 /A <</Type /Action
 /S /URI
-/URI (https://github.com/paulshaiju/dslab/tree/master/Cycle-4)>>>>
+/URI (https://github.com/paulshaiju/oslab/tree/master/Cycle-4)>>>>
 endobj
 63 0 obj
 <</Filter /FlateDecode
@@ -1179,18 +1179,18 @@ xref
 0 82
 0000000000 65535 f 
 0000000015 00000 n 
-0000022759 00000 n 
+0000022821 00000 n 
 0000000154 00000 n 
-0000029262 00000 n 
-0000054022 00000 n 
-0000075665 00000 n 
+0000029324 00000 n 
+0000054084 00000 n 
+0000075727 00000 n 
 0000000191 00000 n 
 0000000455 00000 n 
 0000000728 00000 n 
 0000001034 00000 n 
 0000001118 00000 n 
 0000001444 00000 n 
-0000088360 00000 n 
+0000088422 00000 n 
 0000001485 00000 n 
 0000001749 00000 n 
 0000002022 00000 n 
@@ -1215,54 +1215,54 @@ xref
 0000006698 00000 n 
 0000006911 00000 n 
 0000007096 00000 n 
-0000007281 00000 n 
-0000007566 00000 n 
-0000007796 00000 n 
-0000008005 00000 n 
-0000023157 00000 n 
-0000013604 00000 n 
-0000013866 00000 n 
-0000014137 00000 n 
-0000014446 00000 n 
-0000014531 00000 n 
-0000014858 00000 n 
-0000015067 00000 n 
-0000023466 00000 n 
-0000018070 00000 n 
-0000018332 00000 n 
-0000018603 00000 n 
-0000018912 00000 n 
-0000018997 00000 n 
-0000019324 00000 n 
-0000019586 00000 n 
-0000019857 00000 n 
-0000020166 00000 n 
-0000020251 00000 n 
-0000020578 00000 n 
-0000020787 00000 n 
-0000020996 00000 n 
-0000023794 00000 n 
-0000023864 00000 n 
-0000023913 00000 n 
-0000028424 00000 n 
-0000028621 00000 n 
-0000028911 00000 n 
-0000029403 00000 n 
-0000052587 00000 n 
-0000052821 00000 n 
-0000053612 00000 n 
-0000054154 00000 n 
-0000074351 00000 n 
-0000074590 00000 n 
-0000075263 00000 n 
-0000075802 00000 n 
-0000087047 00000 n 
-0000087283 00000 n 
-0000087955 00000 n 
+0000007343 00000 n 
+0000007628 00000 n 
+0000007858 00000 n 
+0000008067 00000 n 
+0000023219 00000 n 
+0000013666 00000 n 
+0000013928 00000 n 
+0000014199 00000 n 
+0000014508 00000 n 
+0000014593 00000 n 
+0000014920 00000 n 
+0000015129 00000 n 
+0000023528 00000 n 
+0000018132 00000 n 
+0000018394 00000 n 
+0000018665 00000 n 
+0000018974 00000 n 
+0000019059 00000 n 
+0000019386 00000 n 
+0000019648 00000 n 
+0000019919 00000 n 
+0000020228 00000 n 
+0000020313 00000 n 
+0000020640 00000 n 
+0000020849 00000 n 
+0000021058 00000 n 
+0000023856 00000 n 
+0000023926 00000 n 
+0000023975 00000 n 
+0000028486 00000 n 
+0000028683 00000 n 
+0000028973 00000 n 
+0000029465 00000 n 
+0000052649 00000 n 
+0000052883 00000 n 
+0000053674 00000 n 
+0000054216 00000 n 
+0000074413 00000 n 
+0000074652 00000 n 
+0000075325 00000 n 
+0000075864 00000 n 
+0000087109 00000 n 
+0000087345 00000 n 
+0000088017 00000 n 
 trailer
 <</Size 82
 /Root 65 0 R
 /Info 1 0 R>>
 startxref
-88493
+88555
 %%EOF
