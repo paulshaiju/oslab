@@ -4,16 +4,16 @@
 #### 2021 - 2025 (A) Batch
 ##### February 2023 - July 2023
 ---
-## [![](https://img.shields.io/badge/Source%20Code-Download_Link-brightgreen)](https://github.com/paulshaiju/dslab)
+## [![](https://img.shields.io/badge/Source%20Code-Download_Link-brightgreen)](https://github.com/paulshaiju/oslab)
 
-[![](https://img.shields.io/badge/Viva%20Voce-Questions-violet)](https://github.com/paulshaiju/dslab)
+[![](https://img.shields.io/badge/Viva%20Voce-Questions-violet)](https://github.com/paulshaiju/oslab/blob/main/Viva-Voce/OSLAB_VIVA-VOCE_QBank_AUG2023_U5_JECC.pdf)
 
 [![](https://img.shields.io/badge/Programs%20%26%20Viva%20by-Alwin%20Mathew%2C%20Alan%20Jose%2C%20%20Athul%20Murali%2C%20%20Adithya%20E%2C%20%26%20Abhijith%20Suresh-orange)](mailto:alwinmathew.cse21@jecc.ac.in,alan.cse21@jecc.ac.in,athul.cse21@jecc.ac.in,adithya.cse21@jecc.ac.in,abhijith.cse21@jecc.ac.in)
 
-[![](https://img.shields.io/badge/GCC%20%26%20GEANY-Installation%20on%20Windows%20-yellow)](https://github.com/paulshaiju/dslab/blob/master/INSTALL_gcc_geany_on_windows.pdf)
+[![](https://img.shields.io/badge/GCC%20%26%20GEANY-Installation%20on%20Windows%20-yellow)](https://github.com/paulshaiju/oslab/blob/master/INSTALL_gcc_geany_on_windows.pdf)
 
 ---
-[![](https://img.shields.io/badge/Cycle-1-blue)](https://github.com/paulshaiju/dslab/tree/master/Cycle-1)
+[![](https://img.shields.io/badge/Cycle-1-blue)](https://github.com/paulshaiju/oslab/tree/master/Cycle-1)
 
 1. To study the basics of UNIX/**LINUX OS and its commands**.
 
@@ -41,7 +41,7 @@
         2. If not create one.
         3. List all the directories.
 ---
-[![](https://img.shields.io/badge/Cycle-2-blue)](https://github.com/paulshaiju/dslab/tree/master/Cycle-2)
+[![](https://img.shields.io/badge/Cycle-2-blue)](https://github.com/paulshaiju/oslab/tree/master/Cycle-2)
 
 3. **Programs on Processes, Threads, System Calls, and IPC**
     1. Create a new process and print its process id and its parent's process id in C (use fork() and wait() system call).
@@ -73,7 +73,7 @@
 6. **Deadlock Avoidance**
     1. Simulate Banker’s Algorithm
 ---
-[![](https://img.shields.io/badge/Cycle-3-blue)](https://github.com/paulshaiju/dslab/tree/master/Cycle-3)
+[![](https://img.shields.io/badge/Cycle-3-blue)](https://github.com/paulshaiju/oslab/tree/master/Cycle-3)
 
 7. **Memory Allocation Methods**
     1. Write a C Program to implement the First ﬁt Algorithm.
@@ -84,7 +84,7 @@
     2. Write a C Program to implement the LRU page replacement algorithm.
     3. Write a C Program to implement the Optimal page replacement algorithm.
 ---
-[![](https://img.shields.io/badge/Cycle-4-blue)](https://github.com/paulshaiju/dslab/tree/master/Cycle-4)
+[![](https://img.shields.io/badge/Cycle-4-blue)](https://github.com/paulshaiju/oslab/tree/master/Cycle-4)
 
 9. **Disk Scheduling Algorithms**
     1. Write a C Program to simulate the FCFS disk scheduling algorithm.
