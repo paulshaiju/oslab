@@ -3,89 +3,84 @@
 #include <stdio.h>
 
 int main() {
-    int i, j, k, rs[25], m[10], flag[25] = {0}, n, f, pf = 0;
+    int i, j, k, ref_str[20], frames[20],ref_length, frame_length, PF = 0, PH = 0,count=0;
 
     printf("Enter the length of the reference string: ");
-    scanf("%d", &n);
-    printf("Enter the reference string: ");
-    for (i = 0; i < n; i++) {
-        scanf("%d", &rs[i]);
-    }
-    printf("Enter the number of frames: ");
-    scanf("%d", &f);
+    scanf("%d", &ref_length);
 
-    printf("\nThe Page Replacement process is --\n");
-    for (i = 0; i < n; i++) {
-        for (j = 0; j < f; j++) {
-            if (m[j] == rs[i]) {
-                flag[i] = 1;
+    printf("Enter the reference string: ");
+    for (i = 0; i < ref_length; i++) {
+        scanf("%d", &ref_str[i]);
+    }
+
+    printf("Enter the number of frames: ");
+    scanf("%d", &frame_length);
+
+    for (i = 0; i < frame_length; i++) {
+        frames[i] = -1;
+    }
+
+    printf("\nThe Page Replacement process is \n");
+    for (i = 0; i < ref_length; i++) {
+        int found = 0;
+        for (j = 0; j < frame_length; j++) {
+            if (ref_str[i] == frames[j]) {
+                found = 1;
+                PH++;
                 break;
             }
         }
 
-        if (flag[i] == 0) {
-            int replaceIndex = -1;
-            int farthestIndex = i + 1;
-
-            for (j = 0; j < f; j++) {
-                int pageFoundLater = 0;
-
-                for (k = i + 1; k < n; k++) {
-                    if (m[j] == rs[k]) {
-                        pageFoundLater = 1;
-                        if (k > farthestIndex) {
-                            farthestIndex = k;
-                            replaceIndex = j;
-                        }
+        if (!found) {
+            int replace = -1, farthest = -1;
+             if(i<frame_length){
+            replace=count;
+            count++;}else{
+            for (j = 0; j < frame_length; j++) {
+                int next_use = -1;
+                for (k = i + 1; k < ref_length; k++) {
+                    if (frames[j] == ref_str[k]) {
+                        next_use = k;
                         break;
                     }
                 }
-
-                if (!pageFoundLater) {
-                    replaceIndex = j;
+                if (next_use == -1) { // This frame is not used again
+                    replace = j;
                     break;
                 }
+                if (next_use > farthest) {
+                    farthest = next_use;
+                    replace = j;
+                }
             }
-
-            m[replaceIndex] = rs[i];
-            pf++;
+        }
+            frames[replace] = ref_str[i];
+            PF++;
         }
 
-        for (j = 0; j < f; j++) {
-            printf("%d\t", m[j]);
-        }
+        for (j = 0; j < frame_length; j++) 
+           printf("\t%d", frames[j]);
 
-        if (flag[i] == 0) {
-            printf("PF no. -- %d", pf);
-        }
-
-        printf("\n");
+        if (found) printf("\tPH No. %d\n", PH);
+        else printf("\tPF No. %d\n", PF);
     }
-
-    printf("\nThe number of page faults using Optimal algorithm: %d\n", pf);
- printf("\nThe number of page hits using Optimal algorithm: %d\n",n-pf);
- return 0;
-}
+ printf("\nThe number of page faults using Optimal algorithm: %d\n", PF);
+ printf("\nThe number of page hits using Optimal algorithm: %d\n",PH);}
 
 /*OUTPUT
-Enter the length of the reference string: 12
-Enter the reference string: 2 3 2 1 5 2 4 5 3 2 5 2
+Enter the length of the reference string: 7
+Enter the reference string: 7 0 1 2 0 3 1
 Enter the number of frames: 3
 
-The Page Replacement process is --
-2       0       0       PF no. -- 1
-2       3       0       PF no. -- 2
-2       3       0
-2       3       1       PF no. -- 3
-2       3       5       PF no. -- 4
-2       3       5
-4       3       5       PF no. -- 5
-4       3       5
-4       3       5
-2       3       5       PF no. -- 6
-2       3       5
-2       3       5
+The Page Replacement process is 
+        7       -1      -1      PF No. 1
+        7       0       -1      PF No. 2
+        7       0       1       PF No. 3
+        2       0       1       PF No. 4
+        2       0       1       PH No. 1
+        3       0       1       PF No. 5
+        3       0       1       PH No. 2
 
-The number of page faults using Optimal algorithm: 6
+The number of page faults using Optimal algorithm: 5
 
-The number of page hits using Optimal algorithm: 6 */
+The number of page hits using Optimal algorithm: 2 */
